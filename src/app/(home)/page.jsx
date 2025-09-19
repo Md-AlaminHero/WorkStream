@@ -12,8 +12,7 @@ import { Testimonials } from "../Components/(home_page)/Testimonials/Testimonial
 import ScrollToTopButton from "../Components/(home_page)/ScrollBottomToTop/ScrollToTopButton";
 
 import Contact from "../Components/(home_page)/Contact/Contact";
-import FaqSection from "../Components/(home_page)/FAQ/FAQSection";
-import SecuritySection from "./security/page";
+import FaqSection from "../Components/(home_page)/FAQ/FaqSection";
 
 // here we'll have the content of the home page
 export default function HomePage() {
@@ -58,9 +57,6 @@ export default function HomePage() {
       {/* contact section  */}
       <div>
         <Contact></Contact>
-      </div>
-      <div>
-        <SecuritySection></SecuritySection>
       </div>
     </div>
   );
